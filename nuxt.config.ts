@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   routeRules: {
-    // prerender index route by default
-    "/": { prerender: true },
+    // Disable prerender to avoid FPL API calls during build
+    "/": { prerender: false },
   },
   css: ["~/assets/css/main.css"],
   postcss: {
