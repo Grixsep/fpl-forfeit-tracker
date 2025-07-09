@@ -1,6 +1,6 @@
 export default defineEventHandler(async (event) => {
-  // CHANGE THIS TO YOUR ACTUAL LEAGUE ID
-  const LEAGUE_ID = "689297"; // Replace with your league ID
+  // League ID can be provided via the LEAGUE_ID environment variable
+  const LEAGUE_ID = process.env.LEAGUE_ID || "689297"; // Replace with your league ID
 
   try {
     // API Base URL
