@@ -8,11 +8,11 @@ A design system for indie builders, startups and freelancers. Once UI combines t
 
 A lightweight starter template with the [Once UI Core](https://github.com/once-ui-system/core) package and our recommended setup to move fast and break limits without neglecting quality.
 
-* **Customization**: Manage design config in a single file.
-* **Components**: Access advanced components with simple APIs.
-* **Data-viz**: Add responsive charts with a few lines of code.
-* **SEO**: Use our SEO components to simplify meta and schema setup.
-* **PRO**: Launch ready-made apps with minimal coding with Once UI Pro.
+- **Customization**: Manage design config in a single file.
+- **Components**: Access advanced components with simple APIs.
+- **Data-viz**: Add responsive charts with a few lines of code.
+- **SEO**: Use our SEO components to simplify meta and schema setup.
+- **PRO**: Launch ready-made apps with minimal coding with Once UI Pro.
 
 [Get Once UI Pro](https://once-ui.com/pricing)
 
@@ -43,6 +43,7 @@ Learn how to build with Once UI at [docs.once-ui.com](https://docs.once-ui.com/o
 ## Get started
 
 Clone the starter template from GitHub:
+
 ```bash
 git clone https://github.com/once-ui-system/nextjs-starter.git
 ```

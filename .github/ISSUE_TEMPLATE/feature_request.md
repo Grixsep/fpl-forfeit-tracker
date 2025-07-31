@@ -9,7 +9,6 @@ about: Submit a feature request for Once UI
 
 [Tell us about the problem you're trying to solve and the requested feature.]
 
-
 **Affected components**
 
 [Is the feature request related to an existing component?]
