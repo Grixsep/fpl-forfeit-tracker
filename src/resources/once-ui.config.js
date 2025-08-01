@@ -109,13 +109,15 @@ const effects = {
 const meta = {
   home: {
     path: "/",
-    title: "Once UI for Next.js",
+    title: "FPL Forfeit Tracker",
     description:
-      "An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.",
-    image: "/images/og/home.jpg",
-    canonical: "https://once-ui.com",
+      "Fanatsy Premier League Forfeit Tracker is a tool to help you track forfeits in your Fantasy Premier League (FPL) league.",
+    image: "/images/Mini-league-forfeits.png", // image from https://www.fantasyfootballhub.co.uk/top-fpl-and-fantasy-football-mini-league-forfeits
+    canonical: "https://fpl-forfeit-tracker.vercel.app/",
     robots: "index,follow",
-    alternates: [{ href: "https://once-ui.com", hrefLang: "en" }],
+    alternates: [
+      { href: "https://fpl-forfeit-tracker.vercel.app/", hrefLang: "en" },
+    ],
   },
   // add more routes and reference them in page.tsx
 };
@@ -124,16 +126,16 @@ const meta = {
 const schema = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "FPL Forfeit Tracker",
   description: meta.home.description,
-  email: "lorant@once-ui.com",
+  email: "",
 };
 
 // social links
 const social = {
-  twitter: "https://www.twitter.com/_onceui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  twitter: "",
+  linkedin: "",
+  discord: "",
 };
 
 export { baseURL, fonts, style, meta, schema, social, effects, dataStyle };
