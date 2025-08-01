@@ -190,6 +190,9 @@ async function getPeriodScores() {
       ? [...validTeams].sort((a, b) => a.lastPeriodScore - b.lastPeriodScore)
       : [];
 
+  // Add forfeit history (for demo - in real app you'd store this)
+  const forfeitHistory = [{ period: { start: 1, end: 4 }, loser: "David" }];
+
   return NextResponse.json({
     currentGameweek: currentGW,
     currentPeriod: currentPeriod,
@@ -197,6 +200,7 @@ async function getPeriodScores() {
     lastPeriodLeaderboard: lastPeriodSorted,
     lastLoser: lastPeriodSorted[0]?.playerName || null,
     leagueName: standingsData.league.name,
+    forfeitHistory: forfeitHistory,
   });
 }
 
